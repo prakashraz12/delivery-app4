@@ -1,0 +1,16 @@
+.conainer__3{
+    display: flex;
+    gap: 2rem;
+}
+.conainer__3 .dabba{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    
+    align-items: center;
+    text-align: center;
+}
+.conainer__3 img{
+    height: 70px;
+    width: 70px;
+}

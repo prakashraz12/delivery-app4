@@ -1,0 +1,31 @@
+.conatiner__sutter {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    background: whitesmoke;
+    padding: 8px 30px;
+    border-radius: 7px;
+}
+
+.conatiner__sutter img {
+    height: 40px;
+}
+
+.conatiner__sutter p {
+    font-size: 16px;
+}
+@media (max-width:768px){
+    .conatiner__sutter {
+        gap: 0.8rem;
+        padding: 8px 20px;
+        border-radius: 7px;
+    }
+    
+    .conatiner__sutter img {
+        height: 30px;
+    }
+    
+    .conatiner__sutter p {
+        font-size: 13px;
+    }
+}

@@ -1,0 +1,87 @@
+nav{
+    display: flex;
+    justify-content:space-between;
+    padding: 20px 80px;
+    background: whitesmoke;
+    align-items: center;
+}
+nav h2{
+    color: crimson;
+    font-size: 20px;
+    font-family: 'raleway';
+}
+nav .nav__links ul{
+    display: flex;
+    gap: 1rem;
+}
+nav .nav__links ul li a:hover{
+    color: crimson;
+    transition: all ease 0.3s;
+}
+nav .nav__links ul li a{
+color: black;
+font-size: 16px;
+}
+nav .icons{
+    font-size: 19px;
+    display: flex;
+    gap: 0.5rem;
+}
+nav .logo{
+    display: flex;
+    gap: 0.8rem;
+    align-items: center;
+}
+nav .logo img{
+    height: 50px;
+
+}
+.active__menu {
+    color:crimson !important;
+    font-weight: 600;
+  }
+nav .icons .fav__icon, .cart__icon{
+    position: relative;
+}
+nav .icons .badge{
+    position: absolute;
+    top:35%;
+    width: 15px;
+    left: 15%;
+    font-size: 0.6rem;
+    background: crimson;
+    color: white;
+    border-radius: 50px;
+    text-align: center;
+    font-weight: 600;
+}
+.mobile__menu i{
+    font-size: 17px;
+    font-weight: 600;
+    display: none;
+}
+/* responsive */
+@media (max-width:768px){
+    nav{
+        padding: 20px 70px;
+    }
+    nav .nav__links ul{
+        display: none;
+    }
+    .mobile__menu i{
+        display: block;
+    
+}
+}
+@media (max-width:425px){
+    nav{
+        padding: 20px 50px;
+    }
+}
+@media (max-width:320px){
+    nav{
+        padding: 20px 20px;
+    }
+}
+
+

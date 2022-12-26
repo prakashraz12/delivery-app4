@@ -1,0 +1,22 @@
+.btn__{
+    padding:5px 10px;
+    font-size: 13px;
+    color: white;
+    background: crimson;
+    border:2px solid crimson;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.btn__menu{
+    padding:5px 10px;
+    font-size: 13px;
+    background: white;
+    color: crimson;
+    border: 2px solid crimson;
+    border-radius: 3px;
+    align-items: center;
+    display: flex;
+    cursor: pointer;
+}
